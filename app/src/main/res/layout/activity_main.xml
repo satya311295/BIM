@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0f4f4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="481dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/transactions"
+            android:layout_width="371dp"
+            android:layout_height="47dp"
+            android:onClick="newintenttransactions"
+            android:text="@string/transactions"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/pending"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:onClick="newintentpending"
+            android:text="@string/PendingDues"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <Button
+            android:id="@+id/currentclient"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:onClick="newintentcurrentclient"
+            android:text="@string/Currentclient"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <Button
+            android:id="@+id/wishlist"
+            android:layout_width="371dp"
+            android:layout_height="47dp"
+            android:onClick="newintentwishlish"
+            android:text="@string/WishList"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+        <Button
+            android:id="@+id/graph"
+            android:layout_width="371dp"
+            android:layout_height="47dp"
+            android:onClick="newintentgraph"
+            android:text="@string/Graph"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <Button
+            android:id="@+id/dates"
+            android:layout_width="371dp"
+            android:layout_height="47dp"
+            android:onClick="newintentdates"
+            android:text="@string/ImportantDates"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="366dp" />
+
+        <Button
+            android:id="@+id/currentwork"
+            android:layout_width="371dp"
+            android:layout_height="47dp"
+            android:onClick="newintentcurrentwork"
+            android:text="@string/Currentwork"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <Button
+            android:id="@+id/salary"
+            android:layout_width="371dp"
+            android:layout_height="47dp"
+            android:onClick="newintentsalary"
+            android:text="@string/Salary"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <Button
+            android:id="@+id/stock"
+            android:layout_width="371dp"
+            android:layout_height="47dp"
+            android:onClick="newintentstock"
+            android:text="@string/Stock"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="247dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="75dp"
+        android:layout_height="36dp"
+        android:text="MENU"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="47dp" />
+</android.support.constraint.ConstraintLayout>

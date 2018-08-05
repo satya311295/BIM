@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BIM</string>
+    <string name="transactions">transactions</string>
+    <string name="Stock">Stock</string>
+    <string name="WishList">wishlist</string>
+    <string name="PendingDues">pendingdues</string>
+    <string name="Currentclient">currentclient</string>
+    <string name="Graph">graph</string>
+    <string name="ImportantDates">importantdates</string>
+    <string name="Currentwork">currentwork</string>
+    <string name="Salary">salary</string>
+
+
+</resources>
